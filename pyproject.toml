@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "subl"
+version = "0.1.0"
+description = "Next-generation feed reader"
+authors = ["fluffy <fluffy@beesbuzz.biz>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+flask = "^1.1.2"
+authl = "^0.4.1"
+flask_caching = "^1.9.0"
+pony = "^0.7.13"
+isort = "^4"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+mypy = "*"
+flake8 = "*"
+autopep8 = "*"
+pytest = "*"
+coverage = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
