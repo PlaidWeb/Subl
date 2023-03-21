@@ -6,12 +6,11 @@ authors = ["fluffy <fluffy@beesbuzz.biz>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-flask = "^1.1.2"
-authl = "^0.4.1"
-flask_caching = "^1.9.0"
-pony = "^0.7.13"
-isort = "^4"
+python = "^3.8.1"
+flask = "^2.2.3"
+sqlalchemy = "^2.0.7"
+flask-caching = "^2.0.2"
+authl = "^0.7.0"
 
 [tool.poetry.dev-dependencies]
 pylint = "*"
